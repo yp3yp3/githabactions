@@ -24,5 +24,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/my_test_app
+          tags: ${{ secrets.DOCKER_USERNAME }}/my_nodejs_app
           labels: latest
